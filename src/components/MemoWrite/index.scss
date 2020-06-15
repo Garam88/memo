@@ -1,0 +1,42 @@
+#write {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > .title {
+    font-weight: bold;
+  }
+
+  & >.form-area {
+    width: 70vw;
+
+    & .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+
+      & > .label {
+        width: 10vw;
+      }
+
+      & > .input {
+        width: 100%;
+      }
+    }
+
+    & .button {
+      &.save {
+        width: 100%;
+      }
+    }
+
+    & > .text-area {
+      & .ql-editor {
+        min-height: 350px;
+      }
+    }
+  }
+}
